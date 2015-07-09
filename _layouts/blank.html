@@ -33,5 +33,16 @@
       <span>{% for link_hash in site.links %}{% for link in link_hash %}<a href="{{ link[1] }}"><i class="fa fa-{{ link[0] }}-square"></i></a>{% endfor %}{% endfor %}</span>
       <span>&copy; {{ site.time | date: "%Y" }}</span>
     </footer>
+
+    <script type="text/javascript">
+      var _paq = _paq || [];  _paq.push(['trackPageView']); _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//p.butonic.de/"; _paq.push(['setTrackerUrl', u+'p.php']); _paq.push(['setSiteId', 3]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'p.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <noscript><p><img src="//p.butonic.de/p.php?idsite=3" style="border:0;" alt="" /></p></noscript>
+
   </body>
 </html>
