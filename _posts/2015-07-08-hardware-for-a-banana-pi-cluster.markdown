@@ -28,7 +28,7 @@ I am a little proud of having built a HDD mount with rubber band and LEGO. We sh
 
 ![5V 20A PSU](/assets/P_20150708_211321.jpg)
 
-If you do the math 7*2A for BPI = 14A, 3*2A for HDD = 6A makes a total of 20A. So I ordered seven micro usb cables and a 20A 5V PSU to power all but the switch. Boring ... nothing to benchmark here. Well maybe if I can read some power usage with lmsensors? Ideas welcome.
+If you do the math 7 * 2A for BPI = 14A, 3 * 2A for HDD = 6A makes a total of 20A. So I ordered seven micro usb cables and a 20A 5V PSU to power all but the switch. Boring ... nothing to benchmark here. Well maybe if I can read some power usage with lmsensors? Ideas welcome.
 
 If you have any questions or feedback send me an [email](mailto:jfd+owncluster@butonic.de) or ping me on [twitter](https://twitter.com/butonic).
 
