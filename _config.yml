@@ -12,6 +12,7 @@ paginate: 1
 twitter_username: butonic
 github_username:  owncluster
 
+highlighter: pygments
 
 style:
 #    body: "whitesmoke"
@@ -30,15 +31,33 @@ links:
   - twitter: "https://twitter.com/butonic/"
 
 # Build settings
-markdown: kramdown
-kramdown:
-  input: GFM
+
+markdown: redcarpet
+#kramdown:
+#  input: GFM
 
 # Serve settings
-host: 192.168.1.105
+host: localhost
 
 # Outputting
 permalink: /:year/:month/:day/:title
 
-excerpt_separator: "\n\n\n"
+excerpt_separator: "<!-- more -->"
 defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
+
+picture:
+  source: "assets/images/_fullsize"
+  output: "generated"
+  markup: "picture"
+  presets:
+    default:
+      ppi: [1, 1.5]
+      attr:
+        class: "default-pict"
+        itemprop: "image"
+      source_medium:
+        media: "(min-width: 40em)"
+        width: "600"
+        height: "300"
+      source_default:
+        width: "300"
